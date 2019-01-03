@@ -1,3 +1,5 @@
+package jenkinsTest;
+
 /**
  * Created by meudecc on 15/02/2017.
  */
@@ -11,6 +13,7 @@ public class Student {
         if (attendance < 50) return AttendanceGrade.POOR;
         if (attendance < 70) return AttendanceGrade.AVERAGE;
         if (attendance <= 90) return AttendanceGrade.GOOD;
-        //return AttendanceGrade.VERY_GOOD;
+        return AttendanceGrade.VERY_GOOD;
     }
 }
+
