@@ -2,7 +2,7 @@
  * Created by meudecc on 15/02/2017.
  */
 public class Student {
-
+	//test commit
     public enum AttendanceGrade {ABSENT, VERY_POOR, POOR, AVERAGE, GOOD, VERY_GOOD};
 
     public AttendanceGrade getAttendanceGrade(int attendance) {
